@@ -1,0 +1,17 @@
+
+footer span, a{
+    color: var(--cor-texto);
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    position: relative;
+}
+#footer-content span{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+footer img{
+    background-repeat: repeat;
+}

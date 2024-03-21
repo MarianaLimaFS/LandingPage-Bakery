@@ -1,0 +1,35 @@
+@import url('header.css');
+@import url('menu.css');
+@import url('hero.css');
+@import url('bestpicks.css');
+@import url('feedbacks.css');
+@import url('footer.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --cor-body: #FFFCF8;
+    --cor-texto: #B61132;
+    --cor-forma-hero: #55f1ff7a;
+    --cor-formas: #CEFDFF;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* <i class="fa-solid fa-phone"></i>
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-solid fa-bars"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-brands fa-github"></i>
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-whatsapp"></i> */
+body{
+    background-color: var(--cor-body);
+}
+span{
+    font-weight: bold;
+}

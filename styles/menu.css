@@ -1,0 +1,105 @@
+
+#como-pedir{
+    display: flex;
+    margin-top: 160px;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+
+#instrucoes h1{
+    text-align: center;
+    color: var(--cor-texto);
+    
+}
+#instrucoes p{
+    text-align: center;
+    color: var(--cor-texto);
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+#instrucoes p > a{
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--cor-texto);
+}
+#passos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+   
+}
+.passo{
+    border-radius: 20px;
+    background-color: var(--cor-formas);
+    padding: 30px;
+    margin: 20px;
+    width: 50%;
+    height: 500px;   
+}
+#shape1{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: var(--cor-body); 
+    left: 10.6%;
+    top: 125%;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor-texto);
+    font-size: 5rem;
+    font-weight: 800;
+    display: flex;
+}
+#shape2{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: var(--cor-body); 
+    left: 44%;
+    top: 125%;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor-texto);
+    font-size: 5rem;
+    font-weight: 800;
+    display: flex;
+    
+}
+#shape3{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: var(--cor-body); 
+    left: 77%;
+    top: 125%;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor-texto);
+    font-size: 5rem;
+    font-weight: 800;
+    display: flex;
+}        
+.passo h1{
+    margin-top: 50%;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+.passo h1, p{
+    color: var(--cor-texto);
+    font-weight: 500;
+    
+}
+
+.passo p{
+    font-size: 1.2rem;
+    text-align: center;
+    text-indent: 1;
+    line-height: 1.5em;
+    margin-top: 20px; 
+}

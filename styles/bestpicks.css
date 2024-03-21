@@ -1,0 +1,46 @@
+#mais-pedidos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+#obs{
+    text-align: right; 
+    margin-right: 10px;
+}
+#title{
+    color: var(--cor-texto);
+    text-align: center;
+    font-size: 3rem;
+}
+#title p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+#best-picks{
+    background-color: var(--cor-formas);
+    border-radius: 15%;
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    padding: 50px;
+}
+
+#sabores{
+    display: flex;
+    justify-content: space-between;
+}
+#sabores img{
+    width: 200px;
+}
+#description{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 40px ;
+    font-weight: 500;
+}
+
